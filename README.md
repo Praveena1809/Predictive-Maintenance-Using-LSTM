@@ -17,7 +17,7 @@ Keras 2.1.1
 
 Problem Description
 
-In this example I build an LSTM network in order to predict remaining useful life (or time to failure) of aircraft engines [3] based on scenario described at [1] and [2]. The network uses simulated aircraft sensor values to predict when an aircraft engine will fail in the future so that maintenance can be planned in advance. The question to ask is "Given these aircraft engine operation and failure events history, can we predict when an in-service engine will fail?" We re-formulate this question into two closely relevant questions and answer them using  machine learning models:
+In this example I build an LSTM network in order to predict remaining useful life (or time to failure) of aircraft engines  based on scenarios. The network uses simulated aircraft sensor values to predict when an aircraft engine will fail in the future so that maintenance can be planned in advance. The question to ask is "Given these aircraft engine operation and failure events history, can we predict when an in-service engine will fail?" We re-formulate this question into two closely relevant questions and answer them using  machine learning models:
 
 
 * Binary classification: Is this engine going to fail within w1 cycles?
