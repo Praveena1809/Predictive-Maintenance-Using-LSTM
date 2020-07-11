@@ -25,3 +25,6 @@ In this example I build an LSTM network in order to predict remaining useful lif
 Data Summary
 
 In the Dataset directory there are the training, test and ground truth datasets. The training data consists of multiple multivariate time series with "cycle" as the time unit, together with 21 sensor readings for each cycle. Each time series can be assumed as being generated from a different engine of the same type. The testing data has the same data schema as the training data. The only difference is that the data does not indicate when the failure occurs. Finally, the ground truth data provides the number of remaining working cycles for the engines in the testing data.
+
+
+LINK - https://cainvas.ai-tech.systems/notebooks/details/?url=cainvas-static.s3.ap-south-1.amazonaws.com/media/user_data/praveena002/Untitled.ipynb
